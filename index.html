@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Tic-Tac-Toe Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <div class="msg hide-msg">
+      <p class="winner-msg">Congratulations, Winner is <span></span></p>
+     <button class="new-btn">New Game</button>
+    </div>
+    <h1>Tic Tac Toe</h1>
+    <div class="container">
+      <div class="game">
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+      </div>
+      <button id="reset-btn">Reset Game</button>
+      <div class="player-1">
+        <div><p>X</p></div>
+        <input type="text" value="Player 1">
+        
+      </div>
+      <div class="player-2 brightness">
+        <div><p>O</p></div>
+        <input type="text" value="Player 2">
+      </div>
+    </div>
+    <div class="game-draw">
+      <p>The game is a Draw</p>
+      <button class="new-btn-draw">New Game</button>
+    </div>
+  </main>
+  <script src="main.js"></script>
+</body>
+</html>
